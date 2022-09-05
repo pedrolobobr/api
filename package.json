@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pedrolobobr/api",
+  "author": "Pedro Santos <pgames658@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sequelize": "^6.21.4",
+    "sucrase": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
